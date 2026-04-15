@@ -12,7 +12,7 @@ export const departments: Record<string, DepartmentInfo> = {
   },
   "Audio": {
     name: "Audio",
-    description: "Master the art of sound engineering and production",
+    description: "Love music and want to know how it's really made? Learn the ins and outs of studio production, live sound, mixing, mastering, and publishing.",
     icon: "🎚️"
   },
   "Creative": {
@@ -22,7 +22,7 @@ export const departments: Record<string, DepartmentInfo> = {
   },
   "Events": {
     name: "Events",
-    description: "Plan and execute exciting campus events and concerts",
+    description: "Into music, events, and creative teamwork? Learn how events come together, from planning to execution.",
     icon: "🎉"
   },
   "Music": {
@@ -30,9 +30,9 @@ export const departments: Record<string, DepartmentInfo> = {
     description: "Curate playlists and share your passion for music",
     icon: "🎵"
   },
-  "News": {
-    name: "News",
-    description: "Report on campus news and important stories",
+  "News Broadcasting": {
+    name: "News Broadcasting",
+    description: "Research and write stories covering campus happenings, San Diego, U.S., and global news — then bring them to life live on air.",
     icon: "📰"
   },
   "Programming": {
@@ -42,12 +42,22 @@ export const departments: Record<string, DepartmentInfo> = {
   },
   "Sports Broadcasting": {
     name: "Sports Broadcasting",
-    description: "Be the voice of UC San Diego athletics",
+    description: "Turn your love of sports into on-air experience. Network with professional broadcasters, gain live broadcasting experience, and collaborate with sports marketing.",
     icon: "🎙️"
   },
   "Sports Marketing": {
     name: "Sports Marketing",
-    description: "Promote sports events and build fan engagement",
+    description: "Collaborate in weekly meetings, brainstorm bold marketing ideas, design eye-catching promos, and build brand awareness for KSDT Sports across platforms.",
     icon: "📣"
+  },
+  "Media": {
+    name: "Media",
+    description: "Capture and produce video content for KSDT",
+    icon: "📸"
+  },
+  "Administrative": {
+    name: "Administrative",
+    description: "A selective, leadership-focused program for students looking to gain experience in media, music, event production, and creative project management.",
+    icon: "🏛️"
   }
 };

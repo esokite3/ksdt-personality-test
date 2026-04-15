@@ -17,6 +17,7 @@ export const questions: Question[] = [
           Programming: 3,
           Creative: 2,
           Music: 2,
+          Media: 2,
         },
       },
       {
@@ -25,7 +26,8 @@ export const questions: Question[] = [
           Events: 3,
           "Sports Broadcasting": 3,
           "Sports Marketing": 3,
-          News: 2,
+          "News Broadcasting": 2,
+          Administrative: 2,
         },
       },
       {
@@ -33,9 +35,11 @@ export const questions: Question[] = [
         scores: {
           Creative: 2,
           Music: 2,
-          News: 2,
+          "News Broadcasting": 2,
           "Sports Marketing": 2,
           Audio: 1,
+          Administrative: 2,
+          Media: 1,
         },
       },
     ],
@@ -58,6 +62,7 @@ export const questions: Question[] = [
           Creative: 4,
           "Sports Marketing": 3,
           Events: 1,
+          Media: 2,
         },
       },
       {
@@ -71,7 +76,8 @@ export const questions: Question[] = [
         text: "Live commentary, interviews, and storytelling",
         scores: {
           "Sports Broadcasting": 4,
-          News: 3,
+          "News Broadcasting": 3,
+          Media: 2,
         },
       },
       {
@@ -80,6 +86,7 @@ export const questions: Question[] = [
           "Sports Marketing": 4,
           Events: 2,
           Creative: 1,
+          Administrative: 2,
         },
       },
       {
@@ -87,6 +94,7 @@ export const questions: Question[] = [
         scores: {
           Events: 4,
           "Sports Marketing": 1,
+          Administrative: 3,
         },
       },
     ],
@@ -101,6 +109,7 @@ export const questions: Question[] = [
           "Computer Engineering": 3,
           Programming: 3,
           Audio: 2,
+          Media: 1,
         },
       },
       {
@@ -110,15 +119,18 @@ export const questions: Question[] = [
           Events: 3,
           "Sports Marketing": 3,
           Music: 2,
+          Administrative: 3,
+          Media: 2,
         },
       },
       {
         text: "Mix of independent work and team collaboration",
         scores: {
-          News: 2,
+          "News Broadcasting": 2,
           "Sports Broadcasting": 2,
           Audio: 2,
           Programming: 1,
+          Media: 2,
         },
       },
     ],
@@ -134,6 +146,7 @@ export const questions: Question[] = [
           Events: 4,
           "Sports Broadcasting": 3,
           "Sports Marketing": 4,
+          Media: 2,
         },
       },
       {
@@ -142,6 +155,7 @@ export const questions: Question[] = [
           Audio: 3,
           Music: 3,
           Creative: 2,
+          Media: 3,
         },
       },
       {
@@ -149,21 +163,24 @@ export const questions: Question[] = [
         scores: {
           "Computer Engineering": 3,
           Programming: 3,
+          Administrative: 2,
         },
       },
       {
         text: "Out in the field gathering stories",
         scores: {
-          News: 4,
+          "News Broadcasting": 4,
           "Sports Broadcasting": 2,
+          Media: 3,
         },
       },
       {
         text: "Behind a mic or camera on air",
         scores: {
           "Sports Broadcasting": 4,
-          News: 2,
+          "News Broadcasting": 2,
           Music: 1,
+          Media: 3,
         },
       },
     ],
@@ -185,6 +202,7 @@ export const questions: Question[] = [
         scores: {
           Creative: 4,
           "Sports Marketing": 2,
+          Media: 3,
         },
       },
       {
@@ -196,8 +214,9 @@ export const questions: Question[] = [
       {
         text: "Writing, reporting, and communication",
         scores: {
-          News: 3,
+          "News Broadcasting": 3,
           "Sports Broadcasting": 2,
+          Administrative: 2,
         },
       },
       {
@@ -205,6 +224,7 @@ export const questions: Question[] = [
         scores: {
           Events: 4,
           "Sports Marketing": 2,
+          Administrative: 3,
         },
       },
       {
@@ -213,6 +233,7 @@ export const questions: Question[] = [
           "Sports Marketing": 4,
           Creative: 2,
           Events: 1,
+          Administrative: 2,
         },
       },
       {
@@ -221,6 +242,13 @@ export const questions: Question[] = [
           Music: 4,
           Programming: 3,
           Audio: 1,
+        },
+      },
+      {
+        text: "Video production and filmmaking",
+        scores: {
+          Media: 4,
+          Creative: 2,
         },
       },
     ],
@@ -248,9 +276,11 @@ export const questions: Question[] = [
         scores: {
           Events: 1,
           Creative: 1,
-          News: 1,
+          "News Broadcasting": 1,
           "Sports Broadcasting": 1,
           "Sports Marketing": 1,
+          Media: 1,
+          Administrative: 1,
         },
       },
       {
@@ -272,8 +302,9 @@ export const questions: Question[] = [
         text: "Very comfortable — I love being on mic or camera",
         scores: {
           "Sports Broadcasting": 4,
-          News: 3,
+          "News Broadcasting": 3,
           Music: 2,
+          Media: 1,
         },
       },
       {
@@ -281,7 +312,8 @@ export const questions: Question[] = [
         scores: {
           Events: 2,
           "Sports Marketing": 2,
-          News: 1,
+          "News Broadcasting": 1,
+          Administrative: 2,
         },
       },
       {
@@ -291,6 +323,7 @@ export const questions: Question[] = [
           Audio: 3,
           Programming: 3,
           Creative: 2,
+          Media: 2,
         },
       },
     ],
@@ -307,13 +340,15 @@ export const questions: Question[] = [
           Events: 3,
           Music: 2,
           Creative: 1,
+          Administrative: 3,
         },
       },
       {
         text: "Telling compelling stories in real-time",
         scores: {
           "Sports Broadcasting": 4,
-          News: 3,
+          "News Broadcasting": 3,
+          Media: 2,
         },
       },
       {
@@ -321,6 +356,7 @@ export const questions: Question[] = [
         scores: {
           Creative: 4,
           "Sports Marketing": 2,
+          Media: 3,
         },
       },
       {
@@ -346,6 +382,13 @@ export const questions: Question[] = [
           Audio: 2,
         },
       },
+      {
+        text: "Leading projects and supporting others' growth",
+        scores: {
+          Administrative: 4,
+          Events: 2,
+        },
+      },
     ],
   },
   {
@@ -366,6 +409,7 @@ export const questions: Question[] = [
           "Sports Broadcasting": 3,
           "Sports Marketing": 3,
           Events: 1,
+          Media: 1,
         },
       },
       {
@@ -376,6 +420,7 @@ export const questions: Question[] = [
           Audio: 1,
           "Computer Engineering": 1,
           Programming: 1,
+          Media: 1,
         },
       },
     ],
@@ -426,13 +471,28 @@ export const questions: Question[] = [
         scores: {
           Events: 4,
           "Sports Marketing": 1,
+          Administrative: 2,
         },
       },
       {
         text: "Reporting on campus news or writing stories",
         scores: {
-          News: 4,
+          "News Broadcasting": 4,
           "Sports Broadcasting": 1,
+        },
+      },
+      {
+        text: "Filming and editing video content for the station",
+        scores: {
+          Media: 4,
+          Creative: 2,
+        },
+      },
+      {
+        text: "Managing station operations and special projects",
+        scores: {
+          Administrative: 4,
+          Events: 1,
         },
       },
     ],
@@ -442,18 +502,19 @@ export const questions: Question[] = [
     question: "What's your ideal Friday night?",
     options: [
       {
-        text: "At a Tritons game cheering on the team",
-        scores: {
-          "Sports Broadcasting": 3,
-          "Sports Marketing": 3,
-        },
-      },
-      {
         text: "At a concert or live music event",
         scores: {
           Music: 3,
           Events: 2,
           Audio: 1,
+          Media: 1,
+        },
+      },
+      {
+        text: "At a Tritons game cheering on the team",
+        scores: {
+          "Sports Broadcasting": 3,
+          "Sports Marketing": 3,
         },
       },
       {
@@ -462,12 +523,14 @@ export const questions: Question[] = [
           Creative: 2,
           "Computer Engineering": 2,
           Programming: 2,
+          Media: 2,
         },
       },
       {
         text: "Researching and writing about current events",
         scores: {
-          News: 3,
+          "News Broadcasting": 3,
+          Administrative: 1,
         },
       },
     ],
